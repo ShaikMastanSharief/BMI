@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dynamic BMI Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="bmi-container">
+    <h1>BMI Calculator</h1>
+
+    <label for="weightInput">Weight (kg):</label>
+    <input type="number" id="weightInput" placeholder="Enter weight in kg">
+
+    <label for="heightInput">Height (cm):</label>
+    <input type="number" id="heightInput" placeholder="Enter height in cm">
+
+    <button id="calculateButton">Calculate BMI</button>
+    <button id="resetButton">Reset</button>
+
+    <p id="bmiResult"></p>
+    <p id="bmiCategory" class="category"></p>
+
+    <div class="toggle">
+      <label for="livePreview">Live Preview</label>
+      <input type="checkbox" id="livePreview">
+    </div>
+  </div>
+</body>
+</html>
